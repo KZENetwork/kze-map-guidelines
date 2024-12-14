@@ -7,12 +7,13 @@ KZEのマップのガイドラインのドキュメント
 1. `rsut`をインストールする。<br>
     https://www.rust-lang.org/ja/tools/install
 
-2. `mdbook`をインストールする。<br>
-    ```
+2. `mdbook`と関連するパッケージをインストールする。<br>
+    ```sh
     cargo install mdbook
+    cargo install mdbook-admonish
     ```
 3. このリポジトリを`clone`する。<br>
-    ```
+    ```sh
     git clone https://github.com/KZENetwork/kze-map-guidelines
     ```
 
@@ -27,3 +28,4 @@ mdbook serve --open
 
 ## 参考
 - [mdbook](https://rust-lang.github.io/mdBook/index.html)
+- [mdbook-admonish](https://github.com/tommilligan/mdbook-admonish)
