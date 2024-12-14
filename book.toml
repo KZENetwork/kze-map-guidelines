@@ -1,12 +1,13 @@
 [book]
 authors = ["the_karura"]
-language = "en"
+language = "ja"
 multilingual = false
 src = "src"
 title = "KZE Network Map Guidelines"
 
 [output.html]
 no-section-label = true
+additional-js = ["./js/fzf.umd.js", "./js/elasticlunr.js"]
 additional-css = ["./css/mdbook-admonish.css"]
 
 [preprocessor]
