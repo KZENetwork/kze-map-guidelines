@@ -14,9 +14,11 @@
 
     - [マップ設定](post_guideline/map_setting.md)
     - [ルート・ギミック説明](post_guideline/map_description.md)
+      - [ワールドデータ](post_guideline/world_data.md)
     - [変更履歴](post_guideline/change_history.md)
     - [マップの再投稿手順](post_guideline/repost_map.md)
 
+  - [不適切な表現](post_guideline/inappropriate_language.md)
 ---
 
 - [制作ガイドライン](production_guideline/index.md)
