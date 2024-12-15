@@ -19,6 +19,7 @@
     - [マップの再投稿手順](post_guideline/repost_map.md)
 
   - [不適切な表現](post_guideline/inappropriate_language.md)
+
 ---
 
 - [制作ガイドライン](production_guideline/index.md)
@@ -26,7 +27,6 @@
   - [必須項目](production_guideline/required/index.md)
     - [マップ規模](production_guideline/required/map_scale.md)
     - [マップのテーマ設定](production_guideline/required/map_theme.md)
-    - [表現の取り扱い](production_guideline/required/representation.md)
     - [スタート地点設定](production_guideline/required/start_point.md)
     - [ゴール地点設定](production_guideline/required/goal_point.md)
     - [投票所の作成](production_guideline/required/voting_place.md)
