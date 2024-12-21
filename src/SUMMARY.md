@@ -42,7 +42,8 @@
     - [強制テレポートの使用](production_guideline/optional/teleport.md)
     - [レッドストーンの使用](production_guideline/optional/redstone.md)
     - [コマンドの使用](production_guideline/optional/command.md)
-    - [個別のコマンドについて](production_guideline/optional/individual_command.md)
+      - [/scoreboard](production_guideline/optional/command/scoreboard.md)
+      - [/playsound](production_guideline/optional/command/playsound.md)
     - [特集なコマンドでコマンドを実行](production_guideline/optional/special_command.md)
     - [datapacks の使用](production_guideline/optional/datapack.md)
 

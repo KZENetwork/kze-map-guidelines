@@ -62,3 +62,9 @@
 
 - 専用プラグインのコマンドを使用する
 </aside>
+
+## コマンド別のガイドライン
+
+[/scoreboard の使用](indidual_command/scoreboard.md)
+
+[/playsound の使用](indidual_command/playsound.md)
