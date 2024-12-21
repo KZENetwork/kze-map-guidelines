@@ -1,21 +1,29 @@
 # datapacks の使用
 
-datapacks(function)は使うことができます(v6~)が、以下の禁止事項・注意事項に気を付けて下さい。
+datapacks(function)は使うことができます。
 
-<aside>
-🚫 **非推奨例**
+```admonish failure title= "非推奨例"
+- datapackに使用される文字コードがUTF-8で統一されていない
+- function の load.json と tick.json の使用
+  - マップ開始時の処理と干渉し不具合を起こす可能性があります。
+- function を利用した カスタムbgm の作成
+- function を利用した カスタムバイオーム/ディメンション の作成
+```
 
-- function の load.json と tick.json は禁止です。マップ開始時の処理と干渉し不具合を起こす可能性があります。
-- function を利用した bgm を流すギミックは禁止です。(著作権上、使用可能かどうかによりません。)データが大きくなるため、内部的に悪影響があります。
-</aside>
+```admonish warning title= "注意事項"
+- ファイル名や内容は可読性の高いものを考慮して作成してください。
+  - コマンドの内容が複雑になる場合は、コメントを入れるなどして可読性を高めてください。
+  - 運営が今後のメンテナンスで、datapack の内容を変更する可能性があるため、その点を考慮して作成してください。
+```
 
-<aside>
-⚠️ **注意事項**
+## function 内の schedule コマンド使用
 
-- 文字コードは UTF-8 で統一して下さい。
-- 運営が調整に使う場合があるため、ファイル名を分かりやすくし、可読性の高いものを作ってください。また、ボスの HP やタイマー用の値などがわかるようにコメントを付してください。
-- カスタムバイオーム/ディメンション: 利用できません
-- function で/schedule コマンドを使う際は、/execute コマンドを利用し、マップ内のエンティティ(防具立てなど)の位置でコマンドを実行して下さい。(Mlutiverse 環境で world に datapack を置いて動くか確かめると分かりやすい)
-</aside>
+function で/schedule コマンドを使う際は、/execute コマンドを利用し、マップ内のエンティティ(防具立てなど)の位置でコマンドを実行して下さい。
 
-[定型的なギミック](datapack/standard_gimmick.md)に関しては、こちらを参照してください。
+```admonish info title= "TIPS"
+Mlutiverse 環境であれば world に datapack を置いて動くか確かめると分かりやすいです。
+```
+
+## 関連項目
+
+[定型的なギミック](datapack/standard_gimmick.md)
