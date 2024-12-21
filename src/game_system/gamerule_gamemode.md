@@ -1,10 +1,10 @@
 # 設定されている gamerule と gamemode
 
-### gamemode
+## gamemode
 
 ゲームにおいて gamemode=survival が指定されます。
 
-### gamerule
+## gamerule
 
 ゲーム内で固定されているゲームルール
 

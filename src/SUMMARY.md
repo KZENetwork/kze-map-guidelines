@@ -52,7 +52,7 @@
   - [初期レッドストーン](game_system/initial_redstone.md)
   - [逃走者と感染者の team 指定](game_system/team.md)
   - [ブロックとエンティティの挙動](game_system/block_entity.md)
-  - [プレイヤー死亡時の挙動](game_system/player_death.md)
+  - [プレイヤー死亡時](game_system/player_death.md)
   - [スコアボードのオブジェクト"ZE"](game_system/scoreboard_ze.md)
   - [リソースパックの使用](game_system/resource_pack.md)
   - [設定されている gamerule と gamemode](game_system/gamerule_gamemode.md)
