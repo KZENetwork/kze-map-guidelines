@@ -13,4 +13,4 @@
 
 ## 関連項目
 
-[アスレチックガイド](https://www.notion.so/36c7878380fc4cb791ff23146443cbd7?pvs=21)
+[アスレチックガイド](./athletic.md)
