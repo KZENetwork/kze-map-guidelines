@@ -2,7 +2,7 @@
 
 回路を組むときの一般的な注意事項です。
 
-```admonish warning title="注意事項
+```admonish warning title = "注意事項"
 - 防具立ては銃弾でノックバックされます。動かしたくない場合は NBT で Marker をつけて下さい。(例: /summon armor_stand ~ ~ ~ {Marker:1b})
 ```
 
