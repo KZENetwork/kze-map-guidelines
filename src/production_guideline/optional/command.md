@@ -50,15 +50,9 @@
 | /whitelist       |                         |
 | /worldboarder    |                         |
 
-</aside>
-
-<aside>
-☑️
-
-**推奨例**
-
-- 専用プラグインのコマンドを使用する
-</aside>
+```admonish info title= "推奨例"
+- 専用プラグインのコマンドを使用する (TODO: プラグインの案内を記載)
+```
 
 ## コマンド別のガイドライン
 
