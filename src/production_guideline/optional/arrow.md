@@ -13,7 +13,7 @@
 
 ```admonish example title= "矢印の表現例"
 - player_head (アイテム) MHF_ArrowLeft などの頭にする
-- magenta_glazed_teracotta (アイテム)
+- magenta_glazed_teracotta (ブロック)
 - 看板向け文字コード を使った看板
 - ブロックで大きな矢印を作る
 ```
