@@ -17,13 +17,9 @@ ZE の player は以下の 2 つに分類されます。
 
 ゲームサーバーが起動してからの試合回数を取得します。
 
-<aside>
-⭐
-
-**注意事項**
-
+```admonish warning title = "注意事項"
 - 1 つのマップに関するラウンド数ではありません。
-</aside>
+```
 
 ---
 
@@ -31,11 +27,9 @@ ZE の player は以下の 2 つに分類されます。
 
 現在のマップのラウンド数を取得します。通常 1 か 2 です。
 
-<aside>
-<img src="/icons/command-line_gray.svg" alt="/icons/command-line_gray.svg" width="40px" /> (例)２ラウンド目のみ特定の座標にレッドストーンを設置する
-`/execute if score GAME_MATCH_MAP_ROUND ZE matches 2 run setblock x y z redstone_block`
-
-</aside>
+```admonish example title = "２ラウンド目のみ特定の座標にレッドストーンを設置する例"
+/execute if score GAME_MATCH_MAP_ROUND ZE matches 2 run setblock x y z redstone_block
+```
 
 ---
 
@@ -76,9 +70,9 @@ ZE の player は以下の 2 つに分類されます。
 
 ### GAME_MATCH_FINISH
 
-オブジェクトに値を設定する事により試合が値に対応した効果を元に、試合が終了するように設定が可能です
+オブジェクトに値を設定する事により試合が値に対応した効果を元に、試合が終了するように設定が可能です。
 
-一度値の設定を行うと、キャンセルが出来ません
+一度値の設定を行うと、キャンセルが出来ません。
 
 | 値  | 効果             |
 | --- | ---------------- |
@@ -86,19 +80,13 @@ ZE の player は以下の 2 つに分類されます。
 | 1   | 人間チーム勝利   |
 | 2   | ゾンビチーム勝利 |
 
-<aside>
-<img src="/icons/command-line_gray.svg" alt="/icons/command-line_gray.svg" width="40px" /> (例)人間チームをコマンドで勝利させる
-`/scoreboard players set GAME_MATCH_FINISH ZE 1`
+```admonish example title = "人間チームをコマンドで勝利させる例"
+/scoreboard players set GAME_MATCH_FINISH ZE 1
+```
 
-</aside>
-
-<aside>
-🚫
-
-非推奨
-
+```admonish failure title = "非推奨事項"
 - 3 以降の未定義の値を使用する
-</aside>
+```
 
 ---
 
@@ -113,10 +101,7 @@ ZE の player は以下の 2 つに分類されます。
 | 0   | 元の値             |
 | 1   | カウントダウン開始 |
 
-<aside>
-⭐
 
-**注意事項**
-
+```admonish warning title = "注意事項"
 - 人間はゴールエリアに入らないと、脱出判定になりません。
-</aside>
+```
