@@ -12,6 +12,6 @@
 - [強制テレポートの使用](teleport.md)
 - [レッドストーンの使用](redstone.md)
 - [コマンドの使用](command.md)
-- [個別のコマンドについて](individual_command.md)
-- [特集なコマンドでコマンドを実行](special_command.md)
+    - [scoreboard コマンド](command/scoreboard.md)
+    - [playsound コマンド](command/playsound.md)
 - [datapacks の使用](datapack.md)

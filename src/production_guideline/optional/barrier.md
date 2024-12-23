@@ -10,16 +10,22 @@
 - バリアブロックで道を塞ぐ時は装飾などでバリアブロックを感じさせないようにする
 ```
 
-侵入禁止以外で利用をする場合は以下の項目を参照ください
-
-[バリアブロックを利用したアスレッチックやギミック](./barrier.md)
-
 ### バリアブロックの配置の例 (Extreme_Hills_cave)
 
-TODO: 画像の追加
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/18ab8687-a8b1-4a3c-8a4b-b43beaa470a1/c2c882d8-69ea-4ecc-a5ad-c9a85657e72d/Untitled.png)
+![](barrier_ehc.png)
 
 ### バリアブロックの配置例(けいりゅう)
 
-TODO: 画像の追加
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/18ab8687-a8b1-4a3c-8a4b-b43beaa470a1/d55e2c4c-b88d-4cf2-8042-18e0c3ffaa01/Untitled.png)
+![](barrier_keiryu.png)
+
+## バリアブロックを利用したアスレチックやギミック
+
+バリアブロックの特性を利用したアスレチックやギミック等を作ることができます。
+
+```admonish success title = "推奨例"
+- バリアブロックの位置がわかるようにバリアブロックの下にレッドストーントーチを配置する
+```
+
+```admonish failure title = "非推奨例"
+- 侵入禁止に使用するバリアブロックと混ぜて配置をする
+```

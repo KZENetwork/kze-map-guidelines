@@ -18,12 +18,8 @@ datapacks(function)は使うことができます。
 
 ## function 内の schedule コマンド使用
 
-function で/schedule コマンドを使う際は、/execute コマンドを利用し、マップ内のエンティティ(防具立てなど)の位置でコマンドを実行して下さい。
+function で schedule コマンドを使う際は、execute コマンドを利用し、マップ内のエンティティ(防具立てなど)の位置でコマンドを実行して下さい。
 
 ```admonish info title= "TIPS"
 Mlutiverse 環境であれば world に datapack を置いて動くか確かめると分かりやすいです。
 ```
-
-## 関連項目
-
-[定型的なギミック](datapack/standard_gimmick.md)

@@ -22,8 +22,6 @@
 - 以下のコマンドが利用されている
 ```
 
-※表記されている禁止コマンド名はエイリアスを含めます。
-
 | **コマンド**     | **補足**                |
 | ---------------- | ----------------------- |
 | /help            |                         |
@@ -50,12 +48,14 @@
 | /whitelist       |                         |
 | /worldboarder    |                         |
 
-```admonish info title= "推奨例"
+※表記されている禁止コマンド名はエイリアスを含めます。
+
+```admonish success title= "推奨例"
 - 専用プラグインのコマンドを使用する (TODO: プラグインの案内を記載)
 ```
 
 ## コマンド別のガイドライン
 
-[/scoreboard の使用](indidual_command/scoreboard.md)
+[scoreboard コマンド](command/scoreboard.md)
 
-[/playsound の使用](indidual_command/playsound.md)
+[playsound コマンド](command/playsound.md)

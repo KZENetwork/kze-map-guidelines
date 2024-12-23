@@ -6,7 +6,7 @@
 /execute as @a[team=e] at @s run playsound minecraft:block.anvil.place block @s
 ```
 
-音を聞かせる対象は execute の対象で調整を行います。
+音を聞かせる対象は execute のセレクターで調整を行います。
 
 ## サウンドカテゴリ
 
