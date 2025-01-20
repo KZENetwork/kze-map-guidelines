@@ -5,6 +5,7 @@
   - [マップ投稿規約](map_posting_rules.md)
   - [マップ採用とマップ管理](map_management.md)
   - [用語対応集](glossary.md)
+  - [ガイドライン変更履歴](change_history.md)
 
 ---
 
@@ -21,7 +22,7 @@
 ---
 
 - [制作ガイドライン](production_guideline/index.md)
-
+  - [バージョン](production_guideline/version.md)
   - [必須項目](production_guideline/required/index.md)
     - [マップ規模](production_guideline/required/map_scale.md)
     - [マップのテーマ設定](production_guideline/required/map_theme.md)
